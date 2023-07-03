@@ -1,0 +1,78 @@
+.App {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(15, 69, 97);
+    min-height: 100vh;
+}
+
+h1 {
+    padding: 40px;
+    color: #fff;
+}
+
+.instructions {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+}
+
+.errorMessage {
+    font-weight: bold;
+    padding: 10px;
+    color: red;
+}
+
+label {
+    margin-right: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+input[type='number'] {
+    border-style: none;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+select {
+    border-style: none;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.submitBox {
+    width: 100%;
+}
+
+input[type='submit'] {
+    margin-top: 20px;
+    width: 50%;
+    border-style: none;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(60, 151, 211);
+    transition: width 500ms;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+    background-color: rgb(96, 171, 221);
+    width: 53%;
+}
+
+.image {
+    margin-top: 50px;
+}
+
+svg {
+    border-radius: 10px;
+}
